@@ -1,0 +1,12 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    image: network-discovery:dev
+
+    container_name: network-discovery-backend
+
+    ports:
+      - "8000:8000"
