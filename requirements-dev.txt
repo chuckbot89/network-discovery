@@ -2,3 +2,5 @@
 
 pytest
 httpx2
+ruff
+mypy
